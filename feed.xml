@@ -1,7 +1,229 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gblog</id><title>RSS feed of 692's gblog</title><updated>2024-10-14T13:36:00.094887+00:00</updated><link href="https://github.com/692/gblog"/><link href="https://raw.githubusercontent.com/692/gblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gblog/issues/2</id><title>About</title><updated>2024-10-14T13:36:00.279540+00:00</updated><content type="html"><![CDATA[<p>这是我的个人博客，基于GitHub issues发布文章的项目。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gblog</id><title>RSS feed of 692's gblog</title><updated>2024-10-14T13:55:13.144890+00:00</updated><link href="https://github.com/692/gblog"/><link href="https://raw.githubusercontent.com/692/gblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gblog/issues/3</id><title>markdown语法样式页面</title><updated>2024-10-14T13:55:13.517208+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.meekdai.com/" title="首页"></a><a href="https://github.com/Meekdai/meekdai.github.io/issues/4" title="Issue"></a><a href="https://blog.meekdai.com/post/markdown-ce-shi-ye-mian.html" title="切换主题"></a></p>
+<p>这是一个markdown格式的测试页面，也是个人经常会使用的格式记录。</p>
+<h2>Static Badge</h2>
+<pre><code class="language-md">![](https://img.shields.io/badge/参考页面-orange)
+</code></pre>
+<p><a href="https://camo.githubusercontent.com/d807703912e2569aebe8076458386a85b94e6d197e973b1326b2084f4d51c249/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545352538462538322545382538302538332545392541312542352545392539442541322d6f72616e6765"><img src="https://camo.githubusercontent.com/d807703912e2569aebe8076458386a85b94e6d197e973b1326b2084f4d51c249/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545352538462538322545382538302538332545392541312542352545392539442541322d6f72616e6765" alt="" /></a></p>
+<h2>标题</h2>
+<pre><code class="language-md"># H1
+## H2
+### H3
+#### H4
+</code></pre>
+<h2>强调</h2>
+<pre><code class="language-md">今天的天气真好啊，可以吃**冰激凌**吗？
+</code></pre>
+<p>今天的天气真好啊，可以吃<strong>冰激凌</strong>吗？</p>
+<h2>删除横线</h2>
+<pre><code class="language-md">今天的天气真好啊，可以吃~~冰激凌~~吗？
+</code></pre>
+<p>今天的天气真好啊，可以吃<del>冰激凌</del>吗？</p>
+<h2>列表</h2>
+<pre><code class="language-md">1. 看电视
+2. 吃饭
+3. 睡觉
+
+- 乒乓球
+- 篮球
+- 羽毛球
+</code></pre>
+<ol>
+<li>看电视</li>
+<li>吃饭</li>
+<li>睡觉</li>
+</ol>
+<ul>
+<li>乒乓球</li>
+<li>篮球</li>
+<li>羽毛球</li>
+</ul>
+<h2>代码高亮</h2>
+<p>```python<br />
+import request<br />
+import time</p>
+<p>time.sleep_ms(1000)<br />
+print(&quot;Hello World&quot;)<br />
+```</p>
+<pre><code class="language-python">import request
+import time
+
+time.sleep_ms(1000)
+print(&quot;Hello World&quot;)
+</code></pre>
+<h2>链接</h2>
+<pre><code class="language-md">[我的博客](https://meekdai.github.io)
+</code></pre>
+<p><a href="https://meekdai.github.io/">我的博客</a></p>
+<h2>图片</h2>
+<pre><code class="language-md">![这是我的头像PNG](https://github.com/692.png)
+![这是我的头像SVG](https://note.mgta.us.kg/avatar.svg)
+</code></pre>
+<p><a href="https://github.com/Meekdai/meekdai.github.io/assets/11755104/e4da3470-d4b1-4cc7-9d84-f7da69f90a76"><img src="https://github.com/Meekdai/meekdai.github.io/assets/11755104/e4da3470-d4b1-4cc7-9d84-f7da69f90a76" alt="这是我的头像PNG" /></a></p>
+<p><a href="https://camo.githubusercontent.com/18745789fceeb9c56af5f0a23bc9b6f81b4c882f7964ef8b0b01f8b2dc9ea815/68747470733a2f2f626c6f672e6d65656b6461692e636f6d2f6176617461722e737667"><img src="https://camo.githubusercontent.com/18745789fceeb9c56af5f0a23bc9b6f81b4c882f7964ef8b0b01f8b2dc9ea815/68747470733a2f2f626c6f672e6d65656b6461692e636f6d2f6176617461722e737667" alt="这是我的头像SVG" /></a></p>
+<h2>表格</h2>
+<pre><code class="language-md">| Table Heading 1 | Table Heading 2 | Center align    | Right align     | Table Heading 5 |
+| :-------------- | :-------------- | :-------------: | --------------: | :-------------- |
+| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
+| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
+| Item 1          | Item 2          | Item 3          | Item 4          | Item 5          |
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="left">Table Heading 1</th>
+<th align="left">Table Heading 2</th>
+<th align="center">Center align</th>
+<th align="right">Right align</th>
+<th align="left">Table Heading 5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Item 1</td>
+<td align="left">Item 2</td>
+<td align="center">Item 3</td>
+<td align="right">Item 4</td>
+<td align="left">Item 5</td>
+</tr>
+<tr>
+<td align="left">Item 1</td>
+<td align="left">Item 2</td>
+<td align="center">Item 3</td>
+<td align="right">Item 4</td>
+<td align="left">Item 5</td>
+</tr>
+<tr>
+<td align="left">Item 1</td>
+<td align="left">Item 2</td>
+<td align="center">Item 3</td>
+<td align="right">Item 4</td>
+<td align="left">Item 5</td>
+</tr>
+</tbody></table><h2>水平线</h2>
+<pre><code class="language-md">---
+我在2个水平线中间
+***
+</code></pre>
+<hr />
+<p>我在2个水平线中间</p>
+<hr />
+<h2>引用</h2>
+<pre><code class="language-md">&gt; 落霞与孤鹜齐飞，秋水共长天一色。《滕王阁序》--王勃 
+</code></pre>
+<blockquote>
+<p>落霞与孤鹜齐飞，秋水共长天一色。《滕王阁序》--王勃</p>
+</blockquote>
+<h2>对比</h2>
+<pre><code class="language-diff">+ this text is highlighted in green
+- this text is highlighted in red
+</code></pre>
+<pre><code>\`\`\`diff
++ this text is highlighted in green
+- this text is highlighted in red
+\`\`\`
+
+</code></pre>
+<h2>字体颜色</h2>
+<pre><code class="language-css">Some text in green! 123
+</code></pre>
+<pre><code>\`\`\`CSS
+Some text in green! 123
+\`\`\`
+
+</code></pre>
+<pre><code class="language-p4">Some text in blue! 123
+</code></pre>
+<pre><code class="language-mint">Some text in blue with additional keyword highlighting! 123
+</code></pre>
+<pre><code>\`\`\`P4
+Some text in blue! 123
+\`\`\`
+
+\`\`\`Mint
+Some text in blue with additional keyword highlighting! 123
+\`\`\`
+
+</code></pre>
+<pre><code class="language-json">Some text highlighted in red! 123
+</code></pre>
+<pre><code>\`\`\`JSON
+Some text highlighted in red! 123
+\`\`\`
+
+</code></pre>
+<h2>HTML tricks</h2>
+<p>Monospaced text</p>
+<pre><code class="language-html">&lt;samp&gt;Monospaced text&lt;/samp&gt;
+</code></pre>
+<hr />
+<p>Underlined text</p>
+<pre><code class="language-html">&lt;ins&gt;Underlined text&lt;/ins&gt;
+</code></pre>
+<hr />
+<table role="table"><tbody><tr><td>Boxed text</td></tr></tbody></table>
+<pre><code class="language-html">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Boxed text&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+<hr />
+<p>Item summary with dropdown</p>
+<p>Dropdown content (supports <strong>markdown</strong> <del>yay!</del>)</p>
+<pre><code class="language-json">{
+  awesome: &quot;true&quot;
+}
+</code></pre>
+<pre><code>&lt;details&gt;
+&lt;summary&gt;Item summary with dropdown&lt;/summary&gt;
+
+Dropdown content (supports \*\*markdown\*\* ~~yay!~~)
+
+\`\`\`json
+{
+  awesome: &quot;true&quot;
+}
+\`\`\`
+&lt;/details&gt;
+
+</code></pre>
+<hr />
+<p><strong><em>Italic-bold</em></strong></p>
+<pre><code>__*Italic-bold*__
+
+</code></pre>
+<hr />
+<p>SuperscriptTM</p>
+<pre><code>Superscript&lt;sup&gt;TM&lt;/sup&gt;
+
+</code></pre>
+<hr />
+<p>Superscript-italic_tm_</p>
+<pre><code>Superscript-italic&lt;sup&gt;*tm*&lt;/sup&gt;
+
+</code></pre>
+<hr />
+<p>Subscriptx</p>
+<pre><code>Subscript&lt;sub&gt;x&lt;/sub&gt;
+
+</code></pre>
+<hr />
+<p>Subscript-bold<strong>min</strong></p>
+<pre><code>Subscript-bold&lt;sub&gt;**min**&lt;/sub&gt;
+
+</code></pre>
+<hr />
+<p><del><strong><em>Italic-bold-strikethrough</em></strong></del></p>
+<pre><code>~~__*Italic-bold-strikethrough*__~~
+
+</code></pre>
+<h2>参考</h2>
+<p>更多GitHub Markdown 语法参考：</p>
+<ol>
+<li><a href="https://github.com/Olwiba/Kickass-markdown/">https://github.com/Olwiba/Kickass-markdown/</a></li>
+<li><a href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax</a></li>
+</ol>
+<p>❤️ 转载文章请注明出处，谢谢！❤️</p>
+]]></content><link href="https://github.com/692/gblog/issues/3"/><category term="documentation"/><category term="博客"/><published>2024-10-14T13:54:43+00:00</published></entry><entry><id>https://github.com/692/gblog/issues/2</id><title>About</title><updated>2024-10-14T13:55:13.714639+00:00</updated><content type="html"><![CDATA[<p>这是我的个人博客，基于GitHub issues发布文章的项目。
 感觉这个博客简洁大方，发布文章也很方便。</p>
-]]></content><link href="https://github.com/692/gblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-14T13:36:00.365867+00:00</updated><content type="html"><![CDATA[<h2>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></h2>
+]]></content><link href="https://github.com/692/gblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-14T13:55:13.868413+00:00</updated><content type="html"><![CDATA[<h2>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></h2>
 <p>如果你也想自己写issue博客，并自动生成README，你可以参考如下步骤：</p>
 <blockquote>
 <ol>

@@ -4,7 +4,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 [RSS Feed](https://raw.githubusercontent.com/692/gblog/master/feed.xml)
 
 ## 最近更新
+- [markdown语法样式页面](https://github.com/692/gblog/issues/3)--2024-10-14
 - [About](https://github.com/692/gblog/issues/2)--2024-10-14
 - [本博客部署过程](https://github.com/692/gblog/issues/1)--2024-10-14
+## documentation
+- [markdown语法样式页面](https://github.com/692/gblog/issues/3)--2024-10-14
 ## 博客
+- [markdown语法样式页面](https://github.com/692/gblog/issues/3)--2024-10-14
 - [本博客部署过程](https://github.com/692/gblog/issues/1)--2024-10-14
