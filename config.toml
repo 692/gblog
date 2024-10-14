@@ -1,4 +1,4 @@
-base_url = "https://yihong0618.github.io/gitblog/"
+base_url = "https://692.github.io/gblog/"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 theme = "even"
@@ -7,9 +7,10 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 [extra]
-even_title = "yihong0618's Blog"
+even_title = "MGT'GitBlog"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/tags/", name = "Tags"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
     {url = "$BASE_URL/issue-282/", name = "About"},
 ]
