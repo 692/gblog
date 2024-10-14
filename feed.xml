@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gblog</id><title>RSS feed of 692's gblog</title><updated>2024-10-14T13:08:45.724937+00:00</updated><link href="https://github.com/692/gblog"/><link href="https://raw.githubusercontent.com/692/gblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-14T13:08:46.053725+00:00</updated><content type="html"><![CDATA[<h2>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gblog</id><title>RSS feed of 692's gblog</title><updated>2024-10-14T13:36:00.094887+00:00</updated><link href="https://github.com/692/gblog"/><link href="https://raw.githubusercontent.com/692/gblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gblog/issues/2</id><title>About</title><updated>2024-10-14T13:36:00.279540+00:00</updated><content type="html"><![CDATA[<p>这是我的个人博客，基于GitHub issues发布文章的项目。
+感觉这个博客简洁大方，发布文章也很方便。</p>
+]]></content><link href="https://github.com/692/gblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-14T13:36:00.365867+00:00</updated><content type="html"><![CDATA[<h2>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></h2>
 <p>如果你也想自己写issue博客，并自动生成README，你可以参考如下步骤：</p>
 <blockquote>
 <ol>

@@ -4,6 +4,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 [RSS Feed](https://raw.githubusercontent.com/692/gblog/master/feed.xml)
 
 ## 最近更新
+- [About](https://github.com/692/gblog/issues/2)--2024-10-14
 - [本博客部署过程](https://github.com/692/gblog/issues/1)--2024-10-14
 ## 博客
 - [本博客部署过程](https://github.com/692/gblog/issues/1)--2024-10-14
