@@ -1,5 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gblog</id><title>RSS feed of 692's gblog</title><updated>2024-10-14T13:55:13.144890+00:00</updated><link href="https://github.com/692/gblog"/><link href="https://raw.githubusercontent.com/692/gblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gblog/issues/3</id><title>markdown语法样式页面</title><updated>2024-10-14T13:55:13.517208+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.meekdai.com/" title="首页"></a><a href="https://github.com/Meekdai/meekdai.github.io/issues/4" title="Issue"></a><a href="https://blog.meekdai.com/post/markdown-ce-shi-ye-mian.html" title="切换主题"></a></p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gitblog</id><title>RSS feed of 692's gitblog</title><updated>2024-10-16T08:28:15.133264+00:00</updated><link href="https://github.com/692/gitblog"/><link href="https://raw.githubusercontent.com/692/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gitblog/issues/4</id><title>使用Github Pages和Github Actions搭建免费照片/视频相册</title><updated>2024-10-16T08:28:15.366357+00:00</updated><content type="html"><![CDATA[<h3>项目介绍 ：<a href="https://github.com/gautamkrishnar/github-pages-gallery">GitHub链接</a></h3>
+<p><code>github-pages-gallery</code> 是一个开源项目，旨在帮助用户使用Github Pages和Github Actions免费搭建和托管照片/视频画廊。该项目提供了一个零成本的解决方案，无需编写代码，只需通过Github的Web界面即可完成所有操作。</p>
+<h3>项目快速启动</h3>
+<h4>1. 创建Github账户</h4>
+<p>首先，访问 <a href="https://github.com/join">Github注册页面</a> 创建并验证你的Github账户。</p>
+<h4>2. 使用模板创建仓库</h4>
+<p>点击 <a href="https://github.com/gautamkrishnar/github-pages-gallery/generate">使用此模板</a> 按钮，输入仓库名称并创建新仓库。</p>
+<h4>3. 配置Github Pages</h4>
+<ol>
+<li>进入新创建的仓库，点击 <code>Settings</code> 选项卡。</li>
+<li>在 <code>Code and automation</code> 部分，点击 <code>Pages</code> 选项。</li>
+<li>选择 <code>GitHub Actions</code> 作为Github Pages的源。</li>
+</ol>
+<h4>4. 编辑配置文件</h4>
+<p>在仓库中找到 <code>config.json</code> 文件，点击编辑按钮进行配置：</p>
+<pre><code>{
+  &quot;input&quot;: &quot;/gallery&quot;,
+  &quot;output&quot;: &quot;/build_output&quot;,
+  &quot;title&quot;: &quot;Photo Gallery&quot;,
+  &quot;sort-albums-by&quot;: &quot;title&quot;,
+  &quot;sort-media-by&quot;: &quot;filename&quot;,
+  &quot;download-photos&quot;: &quot;copy&quot;,
+  &quot;cleanup&quot;: true,
+  &quot;theme&quot;: &quot;cards&quot;,
+  &quot;css&quot;: &quot;/custom.css&quot;,
+  &quot;footer&quot;: &quot;Copyright Text&quot;,
+  &quot;usage-stats&quot;: false
+}
+
+</code></pre>
+<p><a href="https://thumbsup.github.io/docs/3-configuration/misc-settings/">官方说明文档</a></p>
+<h4>5. 选择主题</h4>
+<p>你可以从以下主题中选择一个：</p>
+<ul>
+<li><code>mosaic</code>: <a href="https://thumbsup.github.io/demos/themes/mosaic/">mosaic主题</a></li>
+<li><code>cards</code>: <a href="https://thumbsup.github.io/demos/themes/cards/">cards主题</a></li>
+<li><code>classic</code>: <a href="https://thumbsup.github.io/demos/themes/classic/">classic主题</a></li>
+<li><code>flow</code>: <a href="https://thumbsup.github.io/demos/themes/flow/">flow主题</a></li>
+</ul>
+<h4>6. 上传照片/视频</h4>
+<p>将你的照片或视频上传到 <code>/gallery</code> 目录中。</p>
+<h4>7. 查看画廊</h4>
+<p>完成上述步骤后，你的画廊将自动部署到Github Pages，可以通过 <code>https://&lt;你的用户名&gt;.github.io/&lt;仓库名&gt;</code> 访问。</p>
+<h3>应用案例和最佳实践</h3>
+<h4>应用案例</h4>
+<ul>
+<li><strong>个人摄影师</strong>：展示个人作品集。</li>
+<li><strong>团队项目</strong>：展示团队活动照片和视频。</li>
+<li><strong>教育机构</strong>：展示学生作品或课程项目。</li>
+</ul>
+<h4>最佳实践</h4>
+<ul>
+<li><strong>定期更新</strong>：定期上传新作品，保持画廊内容的新鲜度。</li>
+<li><strong>优化图片</strong>：使用适当的图片格式和尺寸，以提高加载速度。</li>
+<li><strong>自定义主题</strong>：根据个人喜好选择或自定义主题，提升用户体验。</li>
+</ul>
+<h3>典型生态项目</h3>
+<ul>
+<li><strong>Thumbsup</strong>: 用于生成静态画廊页面的工具。</li>
+<li><strong>Github Actions</strong>: 提供持续集成和持续部署的平台。</li>
+<li><strong>Github Pages</strong>: 提供免费的静态页面托管服务。</li>
+</ul>
+<p>通过结合这些工具，<code>github-pages-gallery</code> 提供了一个高效且免费的解决方案，帮助用户轻松搭建和管理照片/视频画廊。</p>
+<p><a href="https://gitcode.com/gh_mirrors/gi/github-pages-gallery/?utm_source=artical_gitcode&amp;index=bottom&amp;type=card&amp;webUrl" title="github-pages-gallery">github-pages-galleryA zero dollar solution to host your photo/video gallery online using Github pages and GitHub Actions. No coding necessary. 项目地址:https://gitcode.com/gh_mirrors/gi/github-pages-gallery</a></p>
+<p>本文转自 <a href="https://blog.csdn.net/gitblog_00937/article/details/141989291">https://blog.csdn.net/gitblog_00937/article/details/141989291</a>，如有侵权，请联系删除。</p>
+]]></content><link href="https://github.com/692/gitblog/issues/4"/><category term="GitHub"/><published>2024-10-16T08:27:49+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/3</id><title>markdown语法样式页面</title><updated>2024-10-16T08:28:15.495438+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.meekdai.com/" title="首页"></a><a href="https://github.com/Meekdai/meekdai.github.io/issues/4" title="Issue"></a><a href="https://blog.meekdai.com/post/markdown-ce-shi-ye-mian.html" title="切换主题"></a></p>
 <p>这是一个markdown格式的测试页面，也是个人经常会使用的格式记录。</p>
 <h2>Static Badge</h2>
 <pre><code class="language-md">![](https://img.shields.io/badge/参考页面-orange)
@@ -221,9 +286,9 @@ Dropdown content (supports \*\*markdown\*\* ~~yay!~~)
 <li><a href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax</a></li>
 </ol>
 <p>❤️ 转载文章请注明出处，谢谢！❤️</p>
-]]></content><link href="https://github.com/692/gblog/issues/3"/><category term="documentation"/><category term="博客"/><published>2024-10-14T13:54:43+00:00</published></entry><entry><id>https://github.com/692/gblog/issues/2</id><title>About</title><updated>2024-10-14T13:55:13.714639+00:00</updated><content type="html"><![CDATA[<p>这是我的个人博客，基于GitHub issues发布文章的项目。
+]]></content><link href="https://github.com/692/gitblog/issues/3"/><category term="documentation"/><category term="博客"/><published>2024-10-14T13:54:43+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/2</id><title>About</title><updated>2024-10-16T08:28:15.601209+00:00</updated><content type="html"><![CDATA[<p>这是我的个人博客，基于GitHub issues发布文章的项目。
 感觉这个博客简洁大方，发布文章也很方便。</p>
-]]></content><link href="https://github.com/692/gblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-14T13:55:13.868413+00:00</updated><content type="html"><![CDATA[<h2>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></h2>
+]]></content><link href="https://github.com/692/gitblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-16T08:28:15.698897+00:00</updated><content type="html"><![CDATA[<h2>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></h2>
 <p>如果你也想自己写issue博客，并自动生成README，你可以参考如下步骤：</p>
 <blockquote>
 <ol>
@@ -244,4 +309,4 @@ Dropdown content (supports \*\*markdown\*\* ~~yay!~~)
 </li>
 </ol>
 </blockquote>
-]]></content><link href="https://github.com/692/gblog/issues/1"/><category term="博客"/><published>2024-10-14T13:08:16+00:00</published></entry></feed>
+]]></content><link href="https://github.com/692/gitblog/issues/1"/><category term="博客"/><published>2024-10-14T13:08:16+00:00</published></entry></feed>
