@@ -5,7 +5,6 @@ theme = "even"
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
-    {name = "milestones", feed = true},
 ]
 [extra]
 even_title = "MGT'Blog"
