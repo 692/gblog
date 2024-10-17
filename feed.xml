@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gitblog</id><title>RSS feed of 692's gitblog</title><updated>2024-10-17T11:56:07.709598+00:00</updated><link href="https://github.com/692/gitblog"/><link href="https://raw.githubusercontent.com/692/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gitblog/issues/4</id><title>使用Github Pages和Github Actions搭建免费照片/视频相册</title><updated>2024-10-17T11:56:08.060254+00:00</updated><content type="html"><![CDATA[<h3>项目介绍 ：<a href="https://github.com/gautamkrishnar/github-pages-gallery">GitHub链接</a></h3>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/692/gitblog</id><title>RSS feed of 692's gitblog</title><updated>2024-10-17T12:00:17.253981+00:00</updated><link href="https://github.com/692/gitblog"/><link href="https://raw.githubusercontent.com/692/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/692/gitblog/issues/4</id><title>使用Github Pages和Github Actions搭建免费照片/视频相册</title><updated>2024-10-17T12:00:17.482360+00:00</updated><content type="html"><![CDATA[<h3>项目介绍 ：<a href="https://github.com/gautamkrishnar/github-pages-gallery">GitHub链接</a></h3>
 <p><code>github-pages-gallery</code> 是一个开源项目，旨在帮助用户使用Github Pages和Github Actions免费搭建和托管照片/视频画廊。该项目提供了一个零成本的解决方案，无需编写代码，只需通过Github的Web界面即可完成所有操作。</p>
 <h3>项目快速启动</h3>
 <h4>1. 创建Github账户</h4>
@@ -64,7 +64,7 @@
 <p>通过结合这些工具，<code>github-pages-gallery</code> 提供了一个高效且免费的解决方案，帮助用户轻松搭建和管理照片/视频画廊。</p>
 <p><a href="https://gitcode.com/gh_mirrors/gi/github-pages-gallery/?utm_source=artical_gitcode&amp;index=bottom&amp;type=card&amp;webUrl" title="github-pages-gallery">github-pages-galleryA zero dollar solution to host your photo/video gallery online using Github pages and GitHub Actions. No coding necessary. 项目地址:https://gitcode.com/gh_mirrors/gi/github-pages-gallery</a></p>
 <p>本文转自 <a href="https://blog.csdn.net/gitblog_00937/article/details/141989291">https://blog.csdn.net/gitblog_00937/article/details/141989291</a>，如有侵权，请联系删除。</p>
-]]></content><link href="https://github.com/692/gitblog/issues/4"/><category term="GitHub"/><published>2024-10-16T08:27:49+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/3</id><title>markdown语法样式页面</title><updated>2024-10-17T11:56:08.258509+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.meekdai.com/" title="首页"></a><a href="https://github.com/Meekdai/meekdai.github.io/issues/4" title="Issue"></a><a href="https://blog.meekdai.com/post/markdown-ce-shi-ye-mian.html" title="切换主题"></a></p>
+]]></content><link href="https://github.com/692/gitblog/issues/4"/><category term="GitHub"/><published>2024-10-16T08:27:49+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/3</id><title>markdown语法样式页面</title><updated>2024-10-17T12:00:17.587173+00:00</updated><content type="html"><![CDATA[<p><a href="https://blog.meekdai.com/" title="首页"></a><a href="https://github.com/Meekdai/meekdai.github.io/issues/4" title="Issue"></a><a href="https://blog.meekdai.com/post/markdown-ce-shi-ye-mian.html" title="切换主题"></a></p>
 <p>这是一个markdown格式的测试页面，也是个人经常会使用的格式记录。</p>
 <h2>Static Badge</h2>
 <pre><code class="language-md">![](https://img.shields.io/badge/参考页面-orange)
@@ -286,9 +286,12 @@ Dropdown content (supports \*\*markdown\*\* ~~yay!~~)
 <li><a href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax</a></li>
 </ol>
 <p>❤️ 转载文章请注明出处，谢谢！❤️</p>
-]]></content><link href="https://github.com/692/gitblog/issues/3"/><category term="documentation"/><category term="博客"/><published>2024-10-14T13:54:43+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/2</id><title>About</title><updated>2024-10-17T11:56:08.459465+00:00</updated><content type="html"><![CDATA[<p>这是我的个人博客，基于GitHub issues发布文章的项目。
+]]></content><link href="https://github.com/692/gitblog/issues/3"/><category term="documentation"/><category term="博客"/><published>2024-10-14T13:54:43+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/2</id><title>About</title><updated>2024-10-17T12:00:17.678431+00:00</updated><content type="html"><![CDATA[<hr />
+<h2>catalog: false
+published: false</h2>
+<p>这是我的个人博客，基于GitHub issues发布文章的项目。
 感觉这个博客简洁大方，发布文章也很方便。</p>
-]]></content><link href="https://github.com/692/gitblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-17T11:56:08.616672+00:00</updated><content type="html"><![CDATA[<p>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></p>
+]]></content><link href="https://github.com/692/gitblog/issues/2"/><category term="About"/><published>2024-10-14T13:35:36+00:00</published></entry><entry><id>https://github.com/692/gitblog/issues/1</id><title>本博客部署过程</title><updated>2024-10-17T12:00:17.751751+00:00</updated><content type="html"><![CDATA[<p>文章来源：<a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></p>
 <p>如果你也想自己写issue博客，并自动生成README，你可以参考如下步骤：</p>
 <blockquote>
 <ol>
