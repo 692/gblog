@@ -5,12 +5,14 @@ theme = "even"
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
+    {name = "milestones", feed = true},
 ]
 [extra]
 even_title = "MGT'Blog"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/tags/", name = "Tags"},
+    {url = "$BASE_URL/milestones/", name = "milestones"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
     {url = "$BASE_URL/issue-2/", name = "About"},
     {url = "https://github.com/692/gitblog/issues", name = "GitHub"},
