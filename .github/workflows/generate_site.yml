@@ -46,10 +46,8 @@ jobs:
           isite generate --user $USER --repo $REPO
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
-          gh release download $ZOLA_VERSION --repo eatradish/Seje2 -p '*linux*' --output zola.tar.gz
-          tar zxf zola.tar.gz && mv seje2 /usr/local/bin
           cp config.toml output/config.toml
-          cd output && zola build --base-url $BASE_URL
+          cd output && isite build --base-url $BASE_URL
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
