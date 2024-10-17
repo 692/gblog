@@ -47,7 +47,7 @@ jobs:
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
           cp config.toml output/config.toml
-          cd output && zola build --base-url $BASE_URL
+          cd output && henry build --base-url $BASE_URL
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
